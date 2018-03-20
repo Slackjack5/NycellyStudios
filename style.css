@@ -10,6 +10,7 @@ h1 {
   text-shadow: 2px 2px black
 }
 
+/* Is not positioned properly on Donovan's computer */
 .topleft-triangle {
     position: absolute;
     width: 45%;
