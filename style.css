@@ -7,6 +7,7 @@ body {
 
 h1 {
   text-align: center;
+  text-shadow: 2px 2px black
 }
 
 .topleft-triangle {
@@ -15,7 +16,7 @@ h1 {
     padding-bottom: 31.91%;
     overflow: hidden;
     z-index: 1;
-    left: 15%;
+    margin-left: 15%;
 }
 
 .topleft-triangle::before {
