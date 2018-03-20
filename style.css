@@ -16,12 +16,9 @@ h1 {
     padding-bottom: 31.91%;
     overflow: hidden;
     z-index: 1;
-<<<<<<< HEAD
     margin-left: 15%;
-=======
     top: 0;
     left: 0;
->>>>>>> 182ced02ef4c66638ccbec6be93b2875040f9a66
 }
 
 .topleft-triangle::before {
