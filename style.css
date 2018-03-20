@@ -9,6 +9,31 @@ h1 {
   text-align: center;
 }
 
+.topleft-triangle {
+    position: absolute;
+    width: 45%;
+    padding-bottom: 31.91%;
+    overflow: hidden;
+    z-index: 1;
+    left: 15%;
+}
+
+.topleft-triangle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: orange;
+    transform-origin: left bottom;
+    transform: rotate(-45deg);
+}
+
+.video-container {
+    position: relative;
+}
+
 #Fight{
   filter: blur(5px);
   transition:all 1s;
@@ -18,6 +43,7 @@ h1 {
   height: auto;
   weight: auto\9;
   max-width: 70%;
+  z-index: 0;
 }
 
 #Fight:hover{
