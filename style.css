@@ -6,17 +6,80 @@ body {
 }
 
 h1 {
-  text-align: center;
+  z-index: 1001;
+  text-align: left;
   text-shadow: 2px 2px black
 }
 
+
+.Home-Front{
+  z-index: 1000;
+  position: fixed;
+  text-align: left;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.NycellyStudios{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 36px;
+  color: Black;
+}
+
+.By-Donovan{
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  font-size: 18px;
+  color: Black;
+}
+
+.Indie{
+  z-index: 1000;
+  position: fixed;
+  text-align: center;
+  bottom: 50%;
+  margin-left: 50%;
+  margin-right: 20%;
+  font-size: 80px;
+  Color: White;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.Button1{
+    z-index: 1000;
+    position: fixed;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#ButtonCircle{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  height: 70px;
+  display: block;
+  width: auto
+
+}
+
+
+/*
 .social-media {
   right:0;
   position:absolute;
   margin-right: 2%;
 
 }
+*/
 /* Is not positioned properly on Donovan's computer */
+/*
 .topleft-triangle {
     position: absolute;
     width: 45%;
@@ -38,24 +101,24 @@ h1 {
     transform-origin: left bottom;
     transform: rotate(-45deg);
 }
-
+*/
 .video-container {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     width: auto;
-    max-width: 70%;
+    max-width: auto;
 }
 
 #Fight{
-  filter: blur(5px);
+  filter: blur(10px);
   transition:all 1s;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 100%;
   width: auto\9;
   max-width: 100%;
   z-index: 0;
@@ -65,12 +128,14 @@ h1 {
     filter: blur(0px);
     transition:all 1s;
 }
-
+/*
 #undertext{
   font-size: 36px;
   text-align: center;
 }
-
+*/
+/*
 #welcome {
     margin-left: 15%;
 }
+*/
