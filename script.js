@@ -9,6 +9,7 @@ function setup() {
 //variables for button 1 and slideout menu
   roundButton.addEventListener("click", showMenu, false)
   flyoutMenu.addEventListener("click", hideMenu, false)
+
   flyoutMenu2.addEventListener("click", hideMenu, false)
   flyoutMenu3.addEventListener("click", hideMenu, false)
 //when show menu true
