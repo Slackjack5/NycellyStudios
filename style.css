@@ -30,6 +30,18 @@ button {
     transition: .6s;
     overflow: hidden;
 }
+
+#buttonMenu {
+    background: none;
+    color: 	#00FA9A;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #338033
+    font-size: 6px;
+    border-radius: 0px;
+    transition: .6s;
+    overflow: hidden;
+}
 /*Gets rid of outline box after click of button 1*/
 button:focus {
     outline: none;
@@ -93,7 +105,8 @@ h1 {
   position: fixed;
   text-align: left;
   bottom: 0;
-  margin-left: auto;
+  left: 0;
+  margin-left: 0%;
   margin-right: auto;
 }
 
@@ -157,4 +170,95 @@ h1 {
 #Fight:hover{
     filter: blur(0px);
     transition:all 1s;
+}
+/*Have a menu pop out when activated*/
+#flyoutMenu {
+  z-index: 1002;
+  position: fixed;
+  width: 430px;
+  height: 100vw;
+  top: 0;
+
+  margin-left: 27%;
+  background-color: #00FA9A;
+
+  transform: translate3d(100vw, 0, 0);
+
+  transition: transform 1s cubic-bezier(0, .52, 0, 1);
+  overflow: hidden;
+}
+
+#flyoutMenu2 {
+  z-index: 1002;
+  position: fixed;
+  width: 430px;
+  height: 100vw;
+  top: 0;
+
+  margin-left: 51%;
+  background-color: orange;
+
+  transform: translate3d(100vw, 0, 0);
+
+  transition: transform 1s cubic-bezier(0, .52, 0, 1);
+  overflow: hidden;
+}
+
+#flyoutMenu3 {
+  z-index: 1002;
+  position: fixed;
+  width: 430px;
+  height: 100vw;
+  top: 0;
+
+  margin-left: 76%;
+  background-color: red;
+
+  transform: translate3d(100vw, 0, 0);
+
+  transition: transform 1s cubic-bezier(0, .52, 0, 1);
+  overflow: hidden;
+}
+/*the show variable makes the menu go back to hidden*/
+#flyoutMenu.show {
+  transform: translate3d(0vw, 0, 0);
+}
+
+#flyoutMenu2.show {
+  transform: translate3d(0vw, 0, 0);
+}
+
+#flyoutMenu3.show {
+  transform: translate3d(0vw, 0, 0);
+}
+/*Text properties on teh slide out menu*/
+#flyoutMenu h2 a{
+  color: #333;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#flyoutMenu2 h2 a{
+  color: #333;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#flyoutMenu3 h2 a{
+  color: #333;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/*when hovering over text*/
+#flyoutMenu h2 a:hover{
+  text-decoration: underline;
+}
+
+#flyoutMenu2 h2 a:hover{
+  text-decoration: underline;
+}
+
+#flyoutMenu3 h2 a:hover{
+  text-decoration: underline;
 }
